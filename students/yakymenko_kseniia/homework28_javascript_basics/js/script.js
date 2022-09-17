@@ -8,7 +8,6 @@
 // Правильні
 //const userName;
 // const userSurname;
-// const FirstName;
 // const last_name;
 
 // Неправильні
@@ -18,7 +17,6 @@
 // const First+name; - використання математичних операторів забороняється.
 // const last-Name;
 
-// const SuRnAmE; - не раціональне використання Camel Case.
 //Необхідно логічно використовувати верхній регістр.
 //Найчастіше верхній регістр використовують для великої
 //літери наступного слова у назві змінної.
@@ -51,7 +49,7 @@
 //Завдання 1
 //Запитай ім’я користувача та виведи у відповідь “Привіт, *ім’я*”;
 const userName = prompt('Enter your name');
-const userNameResult = ('Hello, ' + userName);
+const userNameResult = 'Hello, ' + userName;
 console.log(userNameResult);
 /*---------------------------------------*/
 //Завдання 2
@@ -59,12 +57,12 @@ console.log(userNameResult);
 //і виведи результат. Поточний рік вкажи в коді як константу;
 const userYearOfBirth = +prompt('Enter year of your birth');
 const currentYear = 2022;
-const userAge = 'Your age is ' + (currentYear - userYearOfBirth) + ' years.';
+const userAge = currentYear - userYearOfBirth;
 console.log(userAge);
 /*---------------------------------------*/
 //Завдання 3
 //Запитай у користувача довжину сторони квадрату і виведи периметр цього квадрата
 const userSquareLength = +prompt('Enter a length of your square');
 const sidesCount = 4;
-const squarePerimetr = 'Perimetr of your sqare is ' + (userSquareLength * sidesCount);
+const squarePerimetr = userSquareLength * sidesCount;
 console.log(squarePerimetr);
