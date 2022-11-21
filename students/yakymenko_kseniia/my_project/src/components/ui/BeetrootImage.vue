@@ -26,5 +26,8 @@ export default {
 <style lang="scss" scoped>
 img {
     max-width: 100%;
+    padding: 20px;
+    flex-grow: 1;
+    margin-bottom: 0;
 }
 </style>
